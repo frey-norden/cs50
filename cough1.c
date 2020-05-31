@@ -1,9 +1,6 @@
 #include <stdio.h>
 
-void cough(void)
-{
-    printf("cough\n");
-}
+void cough(void);
 
 int main(void)
 {
@@ -11,4 +8,8 @@ int main(void)
     {
         cough();
     }
+}
+void cough(void)
+{
+    printf("cough\n");
 }
